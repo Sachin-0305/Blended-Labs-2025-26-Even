@@ -2,9 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**: SACHIN M
+* **Register Number**: 212223040177
+* **Date of Submission**: 17/08/2026
 
 ---
 
@@ -78,33 +78,66 @@ Reboot the EC2 instance and verify that the data stored in the EBS volume is sti
 
 ## Workflow (Student Explanation)
 
-(Write the steps you followed in your own words)
+### Task 1: Explore Amazon EBS
 
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
+Explore the Amazon EBS service through the EC2 dashboard. Observe different volume types such as General Purpose SSD (gp2/gp3), Provisioned IOPS SSD, Throughput Optimized HDD, and Cold HDD.
 
 ---
+
+### Task 2: Create an EBS Volume
+
+Create a new EBS volume in the same Availability Zone as the EC2 instance. Choose an appropriate size and volume type.
+
+---
+
+### Task 3: Attach EBS Volume to EC2 Instance
+
+Attach the created EBS volume to the running EC2 instance as an additional block device.
+
+---
+
+### Task 4: Format the EBS Volume
+
+Connect to the EC2 instance using SSH and format the attached volume with a file system (for example, ext4).
+
+---
+
+### Task 5: Mount the EBS Volume
+
+Mount the formatted volume to a directory in the EC2 instance (for example, /data or /mnt/ebs).
+
+---
+
+### Task 6: Store Data in EBS Volume
+
+Create files and directories inside the mounted EBS volume and store sample data.
+
+---
+
+### Task 7: Verify Data Persistence
+
+Reboot the EC2 instance and verify that the data stored in the EBS volume is still available after reboot.
+
+---
+
 
 ## Output Screenshots (Attach 3)
 
 ### Screenshot 1: EBS Volume Created
 
-(Insert Screenshot Here)
+<img width="1848" height="908" alt="image" src="https://github.com/user-attachments/assets/f8248cd0-32ca-4c83-bce3-988bc9690d43" />
 
 ---
 
 ### Screenshot 2: EBS Volume Attached to EC2
 
-(Insert Screenshot Here)
+<img width="1846" height="912" alt="image" src="https://github.com/user-attachments/assets/012a3187-1c9e-400b-8fa9-bc1f3e4b8729" />
 
 ---
 
 ### Screenshot 3: Mounted Volume with Data
 
-(Insert Screenshot Here)
+![Uploading image.png…]()
 
 ---
 
